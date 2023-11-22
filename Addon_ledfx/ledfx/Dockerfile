@@ -31,10 +31,6 @@ RUN \
     && pip3 install -r /tmp/requirements.txt \
     \
     && apk del --no-cache --purge .build-dependencies \
-    && rm -fr \
-        /etc/nginx \
-        /root/.cache \
-        /tmp/*
 
 # Copy root filesystem
 COPY rootfs /
