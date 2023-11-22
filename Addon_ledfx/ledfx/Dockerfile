@@ -18,14 +18,14 @@ RUN \
         zlib-dev=1.2.13-r1 \
         linux-headers=6.3-r0 \
     && apk add --no-cache \
-        alsa-plugins-pulse=1.2.7.1-r0 \
-        ffmpeg-libs=5.1.2-r1 \
-        nginx=1.22.1-r0 \
-        portaudio-dev=19.7.0-r0 \
-        pulseaudio-alsa=16.1-r6 \
-        pulseaudio=16.1-r6 \
-        py3-packaging=21.3-r2 \
-        py3-pip=22.3.1-r1 \
+        alsa-plugins-pulse=1.2.7.1-r2 \
+        ffmpeg-libs=6.0.1-r0 \
+        nginx=1.24.0-r7 \
+        portaudio-dev=19.7.0-r1 \
+        pulseaudio-alsa=16.1-r10 \
+        pulseaudio=16.1-r10 \
+        py3-packaging=23.1-r1 \
+        py3-pip=23.1.2-r0 \
         python3=3.10.9-r1 \
     \
     && pip3 install -r /tmp/requirements.txt \
