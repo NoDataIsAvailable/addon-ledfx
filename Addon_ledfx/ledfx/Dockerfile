@@ -30,7 +30,7 @@ RUN \
     \
     && pip3 install -r /tmp/requirements.txt \
     \
-    && apk del --no-cache --purge .build-dependencies \
+    && apk del --no-cache --purge .build-dependencies
 
 # Copy root filesystem
 COPY rootfs /
