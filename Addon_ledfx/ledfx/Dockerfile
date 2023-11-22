@@ -13,10 +13,10 @@ COPY requirements.txt /tmp/
 RUN \
     apk add --no-cache --virtual .build-dependencies \
         build-base=0.5-r3 \
-        cython=0.29.32-r0 \
-        python3-dev=3.10.9-r1 \
-        zlib-dev=1.2.13-r0 \
-        linux-headers=5.19.5-r0 \
+        cython=0.29.36-r0 \
+        python3-dev=3.11.6-r0 \
+        zlib-dev=1.2.13-r1 \
+        linux-headers=6.3-r0 \
     && apk add --no-cache \
         alsa-plugins-pulse=1.2.7.1-r0 \
         ffmpeg-libs=5.1.2-r1 \
